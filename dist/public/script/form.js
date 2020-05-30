@@ -1,9 +1,5 @@
 "use strict";
 
-var _index = _interopRequireDefault(require("../../index.js"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 let question;
 document.querySelector('.starReview').addEventListener('click', e => {
   var id = e.target.id;

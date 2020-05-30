@@ -1,0 +1,49 @@
+body{
+    overflow:scroll;
+    background-color: #6040b0;
+}
+
+.container{
+    padding: 10px 5% 30px 5%;
+    /* background-color: #e2e496; */
+    background-color: #ece8f5;
+    /* margin-top:30px; */
+    height: 100%;
+    /* overflow: scroll; */
+    display: flex;
+    flex-direction:column;
+    /* font-family: 'Ubuntu', sans-serif; */
+    width:90%;
+}
+.info{
+    background-color: #6040b0;
+    color: white;       
+}
+.checked{
+    color: orange !important;
+}
+.fa-star{
+    font-size: 30px !important; 
+    color: white;
+    /* margin-top: 2%; */
+}
+/* .fa-star:hover{
+    color: orange;
+} */
+.question-type{
+    font-size: 13px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-weight: 400;
+}
+.btn{
+    position: relative;
+    margin-top: 3%;
+    justify-content: center;
+}
+.question{
+    flex-grow: 1;
+}
+.form-check{
+    font-size: 14px;    
+}
